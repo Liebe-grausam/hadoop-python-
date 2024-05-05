@@ -3,6 +3,7 @@
 
 step 1：
 在input文件夹中放入待处理的文件。
+
 ![input文件夹内容](./img/input文件夹内容.png)
 
 
@@ -18,6 +19,7 @@ hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-version.jar -fil
 代码运行需要一定时间，如果单纯为学习目的可以使用small_input文件夹作为输入。
 
 代码运行结果保存在output文件夹下的part-00000中。
+
 ![part-00000内容](./img/part-00000.png)
 
 
@@ -28,4 +30,5 @@ step 3：
 python3 word_cloud.py
 ```
 即可得到同一目录下保存的word_cloud.png。
+
 ![词云图example](./img/wordcloud.png)
